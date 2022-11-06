@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Aller';
+    src: local('Aller'),
+    url(./assets/fonts/Aller_Lt.ttf);
+
+}
+
+@font-face {
+    font-family: 'STHeitiSC';
+url(./assets/fonts/Heiti-SC-Medium.ttf)
+}
+
+body {
+    font-family: 'Aller', sans-serif;
+    margin: 0;
+    font-size: 26px;
+    line-height: 1.6;
+    color: #57c5a0;
+
+    background: #242424;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*Header*/
+.header {
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'STHeitiSC', sans-serif;
+    font-size: 26pt;
+    font-weight: normal;
+}
+
+.login {
+    font-family: 'Aler', sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #666666;
+    text-decoration: none;
+}
+
+.search {
+    text-decoration: none;
+}
+
+.login:hover {
+    color: beige;
+}
+
+/*Intro*/
+.intro {
+    width: 100%;
+    background-color: #eeece8;
+}
+
+.intro__inner {
+    background-color: #ffffff;
+}
+
+.flex_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+    font-size: 16pt;
+}
+
+.nav_link {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    margin: 0 15px;
+    gap: 45px;
+}
+
+.box-counter {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.str {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.crt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box_s {
+    background: #adadad;
+}
+
+.box_c {
+    background: #57c5a0;
+}
+
+.flex_desk {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item_details {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Aller, sans-serif;
+    color: black;
+    width: 100%;
+    max-width: 385px;
+}
+
+.desk_maintitle, .second_title {
+    margin: 10px auto;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.desk__title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.price-box {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #57c5a0;
+}
+
+.action_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 100%;
+    max-width: 140px;
+}
+
+/*Navigation*/
+.nav {
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+.pos {
+    padding-top: 5px;
+    border-bottom: 11px solid #000000;
+}
+
+.subnav {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 18pt;
+}
+
+.nav_item {
+
+    margin: 20px auto;
+    line-height: 1.3;
+
+}
+
+.link_nav {
+    display: flex;
+    justify-content: center;
+    color: #909090;
+    text-decoration: none;
+}
+
+.link_nav:active {
+    color: white;
+}
+
+.link_nav.active:before {
+
+}
+
+.link_navtext {
+    display: flex;
+    justify-content: center;
+    color: #909090;
+    font-size: 12pt;
+}
+
+/*Specials*/
+
+.speccont {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.spec_item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.spec_text {
+    position: absolute;
+
+    padding: 5px 15px;
+
+    font-size: 25pt;
+    color: #ffffff;
+
+    background: #000000;
+    opacity: .8;
+}
+
+/*gallery*/
+.products {
+    width: 100%;
+    background-color: #ebe7df;
+}
+
+.product__title {
+
+    font-size: 25pt;
+    color: #242424;
+
+}
+
+.new__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.prod_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+}
+
+
+.show-all {
+
+    padding: 10px 20px;
+
+    font-size: 14pt;
+    color: #bcb5a7;
+    text-decoration: none;
+    outline: none;
+
+    background-color: transparent;
+
+    border: 2px solid #bcb5a7;
+}
+
+.devider {
+    margin: 50px auto;
+    border-bottom: 2px solid #bcb5a7;
+}
+
+.addon {
+
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    flex-grow: 1;
+
+}
+
+.addon__inner {
+
+    background-color: #dfdbd4;
+    padding: 34px 16px 36px 20px;
+
+}
+
+.addon_title {
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.addon_paragraph {
+    font-size: 12pt;
+    inline-size: 170px;
+}
+.blog{
+    width: 50%;
+
+}
+.block{
+    line-height: 1;
+}
+.title{
+    font-size:14pt ;
+    font-weight: bold;
+}
+.content{
+    font-size:12pt ;
+}
+.block_box{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #57c5a0;
+    margin-right:10px ;
+}
