@@ -1,50 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-
-    <title>ecommerce</title>
-</head>
+<?php
+include ("head.php");
+?>
 
 <body>
-<header class="header">
-    <div class="container">
-        <div class="header__inner">
-            <div class="logo">FOOSESHOES</div>
-            <div class="search__login">
-                <a class="search" href="#" style="padding: 20px"><img src="assets/images/Search Icon.png" alt="search"></a>
-                <a class="login" href="#" style="border-left:2px solid #666666;padding:15px 20px ">LOGIN or REGISTER</a>
-            </div>
-        </div>
-    </div>
-</header>
+<?php
+include("header.php"); ?>
 <!--Intro-->
 <div class="intro">
-    <div class="intro__inner">
-        <div class="container flex_nav">
-            <nav class="navigation">
-                <a class="nav_link" href="#">Home</a>
-                <a class="nav_link" href="#">Products</a>
-                <a class="nav_link" href="#">About</a>
-                <a class="nav_link" href="#">Pages</a>
-                <a class="nav_link" href="#">Blog</a>
-                <a class="nav_link" href="#">Contact</a>
-
-            </nav>
-            <div class="icons">
-                <div class="str">
-                    <img class="star" src="assets/images/Star Icon.png" alt="staricon">
-                    <span class="box-counter box_s"></span>
-                </div>
-                <div class="crt">
-                    <img class="cart" src="assets/images/Cart Icon.png" alt="carticon">
-                    <span class="box-counter box_c"></span>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    <?php
+    include("navigation.php"); ?>
     <div class="container flex_desk">
         <div class="pinkshoose">
             <img src="assets/images/introimg.png" alt="img">
@@ -58,18 +24,23 @@
                     orci.Donec dignissim dolor eget..</h2>
             </div>
             <div class="action_menu">
-                <div class="view">
-                    <img src="assets/images/Eye Icon.png" alt>
+
+                <div class="box_icon">
+                    <i class="fa-regular fa-eye "></i>
                 </div>
-                <div class="wishlist">
-                    <img src="assets/images/Star Icon.png" alt>
+
+                <div class="box_icon">
+                    <i class="fa fa-star-o " aria-hidden="true"></i>
                 </div>
-                <div class="share">
-                    <img src="assets/images/Share Icon.png" alt>
+
+                <div class="box_icon">
+                    <i class="fa-solid fa-share-from-square "></i>
                 </div>
-                <div class="buy">
-                    <img src="assets/images/Cart Icon buy.png" alt>
+
+                <div class="box_icon">
+                    <i class="fa-sharp fa-solid fa-cart-shopping "></i>
                 </div>
+
             </div>
 
         </div>
@@ -81,7 +52,7 @@
         <div class="pos">
         </div>
         <div class="subnav">
-            <div class="nav_item active">
+            <div class="nav_item ">
                 <a href="#" class="link_nav">Pink Shoes</a>
                 <span class="link_navtext">Now at $145.99</span>
             </div>
@@ -133,21 +104,64 @@
                 <button class="show-all" style="font-size: 14pt ">Show All</button>
             </div>
             <div class="prod_img">
-                <img src="assets/images/shoe.png" alt=class="shoe">
-                <img src="assets/images/shoe.png" alt=class="shoe">
-                <img src="assets/images/shoe.png" alt=class="shoe">
+                <div class="wrapper_shoe">
+
+                    <img class="shoe" src="assets/images/Item 3.png" alt>
+                    <div class="devider_shoe"></div>
+                    <div class="shoe_price">
+                        <div class="price_num"> $145.99</div>
+                    </div>
+                </div>
+                <div class="wrapper_shoe">
+
+                    <img class="shoe" src="assets/images/Item 3.png">
+                    <div class="devider_shoe"></div>
+                    <div class="shoe_price">
+                        <div class="price_num"> $145.99</div>
+                    </div>
+                </div>
+                <div class="wrapper_shoe">
+
+                    <img class="shoe" src="assets/images/Item 3.png" alt>
+                    <div class="devider_shoe"></div>
+                    <div class="shoe_price">
+                        <div class="price_num"> $145.99</div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="bestselers">
             <div class="new__container">
                 <h2 class="product__title">Best sellers of the month</h2>
-                <button class="show-all">Show All</button>
+                <div class="devider_shoe"></div>
+                <button class="show-all ">Show All</button>
             </div>
             <div class="prod_img">
-                <img src="assets/images/shoe.png" alt=class="shoe">
-                <img src="assets/images/shoe.png" alt=class="shoe">
-                <img src="assets/images/shoe.png" alt=class="shoe">
+                <div class="wrapper_shoe">
+
+                    <img class="shoe" src="assets/images/Item 3.png" alt>
+                    <div class="devider_shoe"></div>
+                    <div class="shoe_price">
+                        <div class="price_num"> $145.99</div>
+                    </div>
+                </div>
+                <div class="wrapper_shoe">
+
+                    <img class="shoe" src="assets/images/Item 3.png" alt>
+                    <div class="devider_shoe"></div>
+                    <div class="shoe_price">
+                        <div class="price_num"> $145.99</div>
+                    </div>
+                </div>
+                <div class="wrapper_shoe">
+
+                    <img class="shoe" src="assets/images/Item 3.png" alt>
+                    <div class="devider_shoe"></div>
+                    <div class="shoe_price">
+                        <div class="price_num"> $145.99</div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="devider"></div>
@@ -166,21 +180,27 @@
             </div>
             <div class="addon__inner blog">
                 <h2 class="addon_title">BLOG NEWS</h2>
+
                 <div class="block">
                     <div class="block_box"></div>
-                    <p class="title">Nice & clean. The best for you blog!</p>
-                    <p class="content">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. </p>
-
+                    <div class="block_block">
+                        <p class="title">Nice & clean. The best for you blog!</p>
+                        <p class="content">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. </p>
+                    </div>
                 </div>
                 <div class="block">
                     <div class="block_box"></div>
-                    <p class="title">What an Ecommerce theme!</p>
-                    <p class="content">Vulputate vel nibh. Class aptent taciti sociosqu ad litora </p>
+                    <div class="block_block">
+                        <p class="title">What an Ecommerce theme!</p>
+                        <p class="content">Vulputate vel nibh. Class aptent taciti sociosqu ad litora </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
+<?php
+include("footer.php")
+?>
 </body>
 </html>

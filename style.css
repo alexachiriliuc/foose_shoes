@@ -19,7 +19,16 @@ body {
 
     background: #242424;
 
+    cursor: default;
+
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
 
 *,
 *:before,
@@ -50,6 +59,9 @@ body {
     font-family: 'STHeitiSC', sans-serif;
     font-size: 26pt;
     font-weight: normal;
+    color: #57c5a0;
+    text-decoration: none;
+
 }
 
 .login {
@@ -141,16 +153,26 @@ body {
     max-width: 385px;
 }
 
-.desk_maintitle, .second_title {
+.desk_maintitle {
     margin: 10px auto;
     font-size: 40px;
     line-height: 1;
+
+}
+
+.second_title {
+    margin: 10px auto;
+    font-size: 40px;
+    line-height: 0.9;
+
 }
 
 .desk__title {
     margin: 0;
     font-size: 20px;
     line-height: 1.4;
+    font-weight: 500;
+
 }
 
 .price-box {
@@ -162,50 +184,77 @@ body {
 
 .action_menu {
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 15px;
-    width: 100%;
-    max-width: 140px;
+    gap: 3px;
+
+    margin-top: 20px;
+    font-size: 14pt;
+    color: #6e6e6e;
+}
+
+.box_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fafaf9;
+}
+
+i:hover {
+    cursor: pointer;
+    color: #57c5a0;
 }
 
 /*Navigation*/
 .nav {
+    padding-top: 10px;
     width: 100%;
     background-color: #2e2e2e;
+
 }
 
-.pos {
-    padding-top: 5px;
-    border-bottom: 11px solid #000000;
-}
 
 .subnav {
+
     display: flex;
-    justify-content: space-between;
 
     font-size: 18pt;
+
+    border-top: 11px solid black;
 }
 
 .nav_item {
-
-    margin: 20px auto;
+    position: relative;
+    top: -9px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px 0;
     line-height: 1.3;
+    border-top: 6px solid transparent;
 
 }
 
 .link_nav {
+    color: #909090;
+
+    flex-grow: 1;
+    width: 180px;
+
     display: flex;
     justify-content: center;
-    color: #909090;
+    align-items: center;
+
     text-decoration: none;
+
 }
 
-.link_nav:active {
+.link_nav:hover {
     color: white;
 }
 
-.link_nav.active:before {
+.nav_item:active {
+
+    border-top: 6px solid #57c5a0 !important;
 
 }
 
@@ -261,16 +310,54 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
 .prod_img {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     margin: 15px auto;
 }
+.wrapper_shoe{
 
+    width: 300px;
+    height: 270px;
+    background-color:#ffffff ;
+}
+.shoe{
+    display: flex;
+    margin: auto;
+    padding-top: 15px;
+}
+.devider_shoe{
+
+padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+
+}
+.shoe_price{
+    width: 68px;
+    height: 68px;
+    background-color: #57c5a0;
+    margin-left: 20px;
+    margin-top: -22px;
+
+    display: flex;
+}
+.price_num{
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    margin-left: 4px;
+}
 
 .show-all {
 
@@ -284,6 +371,11 @@ body {
     background-color: transparent;
 
     border: 2px solid #bcb5a7;
+    cursor: pointer;
+}
+
+.show-all:hover {
+    transform: scale(1.1);
 }
 
 .devider {
@@ -296,62 +388,208 @@ body {
     color: black;
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     gap: 20px;
 
     flex-grow: 1;
-=======
-
->>>>>>> 6e1399a (fooseshoes)
-
 }
 
 .addon__inner {
 
-<<<<<<< HEAD
     background-color: #dfdbd4;
-    padding: 34px 16px 36px 20px;
-=======
-
-    background-color: #dfdbd4;
-    padding: 33px 16px 36px 26px;
->>>>>>> 6e1399a (fooseshoes)
+    width: 25%;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
 
 }
 
 .addon_title {
-    font-size: 14pt;
-    font-weight: 700;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .addon_paragraph {
-    font-size: 12pt;
-    inline-size: 170px;
-<<<<<<< HEAD
+    font-size: 9pt;
+
+
 }
-.blog{
+
+.blog {
     width: 50%;
 
+
 }
-.block{
-    line-height: 1;
+
+.block {
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 20px;
+
 }
-.title{
-    font-size:14pt ;
-    font-weight: bold;
-}
-.content{
-    font-size:12pt ;
-}
-.block_box{
+
+.block_box {
     display: block;
-    width: 40px;
+    flex: 0 0 40px;
     height: 40px;
     background: #57c5a0;
-    margin-right:10px ;
-=======
+    margin-right: 15px;
 
 
-
->>>>>>> 6e1399a (fooseshoes)
 }
+
+.title {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 8pt;
+}
+
+.block_block {
+    line-height: 1.4;
+
+}
+
+/*preFooter*/
+
+.prefooter {
+    width: 100%;
+    background-color: #242424;
+
+
+}
+
+
+.widget_inner {
+    margin: auto;
+    max-width: 860px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #7d7d7d;
+
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    gap: 50px;
+}
+
+.widget {
+    width: 30%;
+}
+
+.widget_title {
+    padding-bottom: 20px;
+}
+
+.widget_text {
+    font-size: 8pt;
+    font-style: italic;
+    color: #a4a4a4;
+    text-align: justify;
+}
+
+.widget_text a {
+    color: #57c5a0;
+    text-decoration: none;
+
+}
+
+.footer_devider {
+
+    margin: 40px auto;
+    border-bottom: 2px solid #1c1c1c;
+}
+
+.social {
+
+    max-width: 860px;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+.social_wraper {
+    display: flex;
+
+
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+
+}
+
+.email input {
+
+    border: none;
+    width: 214px;
+    height: 36px;
+    background: #2e2e2e;
+    font-style: italic;
+    color: #7d7d7d;
+    margin-right: -.36em;
+
+    padding: 15px;
+
+}
+
+.btn {
+
+    position: relative;
+
+    border: none;
+    width: 36px;
+    height: 36px;
+    background: #7d7d7d;
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 14pt;
+}
+
+.social_wraper {
+    margin: auto;
+    max-width: 860px;
+    font-size: 12pt;
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.socialmedia {
+    display: flex;
+    gap: 5px;
+
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icon {
+    font-size: 16pt;
+    text-decoration: none;
+    color: #7d7d7d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 36PX;
+    height: 36px;
+    background: #2e2e2e;
+
+
+}
+

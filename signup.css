@@ -1,0 +1,182 @@
+
+.login_inner {
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #dfdbd4;
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.login_title {
+    font-size: 24pt;
+    font-weight: 800;
+    color: #2e2e2e;
+}
+
+.signup_link {
+    color: #2e2e2e;
+    font-size: 10pt;
+    line-height: 1.4;
+}
+
+.paragraph-title {
+    display: flex;
+    justify-content: end;
+}
+
+.registration {
+    text-decoration: none;
+    color: #4eb191;
+}
+
+.registration:hover {
+    color: #57c5a0;
+    text-decoration: underline;
+}
+
+.social_log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+
+    background-color: transparent;
+    border: 1px solid #7d7d7d;
+    border-radius: 20px;
+    outline: none;
+
+    cursor: pointer;
+}
+
+.lg_btn {
+    font-size: 18pt;
+}
+
+.btn_text {
+    font-size: 12pt;
+    color: #2e2e2e;
+    font-family: Aller sans-serif;
+}
+
+.alt_devider {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    color: #2e2e2e;
+}
+
+.alt_text {
+    margin: 0 10px;
+    position: relative;
+    font-weight: initial;
+    font-family: Aller sans-serif;
+}
+
+.alt_devider:before {
+
+    content: "";
+    display: inline-block;
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.alt_devider:after {
+    content: "";
+    display: inline-block;
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+
+.input_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_group{
+    color: #2e2e2e;
+    font-size: 10pt;
+    margin-bottom: 40px;
+}
+
+.in_login{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 40px;
+
+    border-radius: 10px;
+
+    border: 1px solid #7d7d7d;
+    background-color: transparent;
+
+
+    padding: 15px;
+}
+
+.login_btn{
+    border: none;
+    outline: none;
+
+    width: 170px;
+    height:40px ;
+
+    font-family: Aller sans-serif;
+    color: rgba(46, 46, 46, 0.64);
+    font-size: 12pt;
+    font-weight: bold;
+
+
+    border-radius: 20px;
+    background-color: rgba(87, 197, 160, 0.71);
+    cursor: pointer;
+
+   margin-bottom: 20px;
+}
+
+.login_btn:hover{
+    background-color: #57c5a0;
+    color: #242424;
+}
+
+.license{
+    font-size: 8pt;
+    color:#999999;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+
