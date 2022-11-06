@@ -296,16 +296,26 @@ body {
     color: black;
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     gap: 20px;
 
     flex-grow: 1;
+=======
+
+>>>>>>> 6e1399a (fooseshoes)
 
 }
 
 .addon__inner {
 
+<<<<<<< HEAD
     background-color: #dfdbd4;
     padding: 34px 16px 36px 20px;
+=======
+
+    background-color: #dfdbd4;
+    padding: 33px 16px 36px 26px;
+>>>>>>> 6e1399a (fooseshoes)
 
 }
 
@@ -317,6 +327,7 @@ body {
 .addon_paragraph {
     font-size: 12pt;
     inline-size: 170px;
+<<<<<<< HEAD
 }
 .blog{
     width: 50%;
@@ -338,4 +349,9 @@ body {
     height: 40px;
     background: #57c5a0;
     margin-right:10px ;
+=======
+
+
+
+>>>>>>> 6e1399a (fooseshoes)
 }
