@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include ("head.php");
+include("head.php");
 ?>
 
 <body>
@@ -79,21 +79,24 @@ include("header.php"); ?>
     </div>
 </div>
 <!--specials -->
-<div class="container speccont">
+<div class="speccont">
+    <div class="container ">
+        <div class="speccont_inner">
+            <div class="spec_item">
+                <img src="assets/images/onsale.png" alt class="onsale">
+                <span class="spec_text">ON SALE</span>
+            </div>
+            <div class="spec_item">
+                <img src="assets/images/specialoffer.png" alt class="specialoffers">
+                <span class="spec_text">SPECIAL OFFERS</span>
+            </div>
+            <div class="spec_item">
+                <img src="assets/images/musthave.png" alt class="musthave">
+                <span class="spec_text">MUST HAVE</span>
+            </div>
+        </div>
 
-    <div class="spec_item">
-        <img src="assets/images/onsale.png" alt class="onsale">
-        <span class="spec_text">ON SALE</span>
     </div>
-    <div class="spec_item">
-        <img src="assets/images/specialoffer.png" alt class="specialoffers">
-        <span class="spec_text">SPECIAL OFFERS</span>
-    </div>
-    <div class="spec_item">
-        <img src="assets/images/musthave.png" alt class="musthave">
-        <span class="spec_text">MUST HAVE</span>
-    </div>
-
 </div>
 <!--gallery-->
 <div class="products">

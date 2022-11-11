@@ -268,11 +268,14 @@ i:hover {
 /*Specials*/
 
 .speccont {
-
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    background-color: #242424;
 }
+.speccont_inner{
+    display: flex;
 
+    align-items: center;
+}
 .spec_item {
     position: relative;
     display: flex;
