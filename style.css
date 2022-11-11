@@ -323,40 +323,46 @@ i:hover {
 
     margin: 15px auto;
 }
-.wrapper_shoe{
 
+.wrapper_shoe {
+    position: relative;
     width: 300px;
     height: 270px;
-    background-color:#ffffff ;
+    background-color: #ffffff;
 }
-.shoe{
+
+.shoe {
     display: flex;
     margin: auto;
     padding-top: 15px;
 }
-.devider_shoe{
 
-padding-bottom: 20px;
+.devider_shoe {
+position: relative;
+    top: 20px;
+
     border-bottom: 1px solid #cccccc;
 
 }
-.shoe_price{
+
+.shoe_price {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
     width: 68px;
     height: 68px;
     background-color: #57c5a0;
-    margin-left: 20px;
-    margin-top: -22px;
+display: flex;
+    justify-content: center;
+    align-items: center;
 
-    display: flex;
+
 }
-.price_num{
+
+.price_num {
     font-size: 12pt;
     font-weight: 600;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items:  center;
-    margin-left: 4px;
 }
 
 .show-all {
