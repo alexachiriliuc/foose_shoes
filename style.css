@@ -335,15 +335,16 @@ i:hover {
 }
 
 .shoe {
-    display: flex;
-    margin: auto;
-    padding-top: 15px;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+
 }
 
 .devider_shoe {
-    position: relative;
-    top: 20px;
-
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
     border-bottom: 1px solid #cccccc;
 
 }

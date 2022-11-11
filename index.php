@@ -137,7 +137,6 @@ include("header.php"); ?>
         <div class="bestselers">
             <div class="new__container">
                 <h2 class="product__title">Best sellers of the month</h2>
-                <div class="devider_shoe"></div>
                 <button class="show-all ">Show All</button>
             </div>
             <div class="prod_img">
