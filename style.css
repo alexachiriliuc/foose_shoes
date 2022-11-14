@@ -40,13 +40,13 @@ body {
 .header {
     width: 100%;
     z-index: 1000;
-
 }
 
 .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header__inner {
@@ -61,7 +61,6 @@ body {
     font-weight: normal;
     color: #57c5a0;
     text-decoration: none;
-
 }
 
 .login {
@@ -79,6 +78,61 @@ body {
 .login:hover {
     color: beige;
 }
+
+
+@media screen, (max-width: 975px) {
+
+    .profile {
+        display: none;
+    }
+    .profile_box{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .search__login {
+        position: absolute;
+        right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .login {
+        display: none;
+    }
+
+    .profile {
+
+        font-size: 12pt;
+    }
+    .profile_box {
+
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #eeece8;
+        border-radius: 20px;
+        background-color: transparent;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
 
 /*Intro*/
 .intro {
@@ -271,11 +325,13 @@ i:hover {
     width: 100%;
     background-color: #242424;
 }
-.speccont_inner{
+
+.speccont_inner {
     display: flex;
 
     align-items: center;
 }
+
 .spec_item {
     position: relative;
     display: flex;
@@ -469,13 +525,12 @@ i:hover {
 .prefooter {
     width: 100%;
     background-color: #242424;
-
-
 }
 
 
 .widget_inner {
     margin: auto;
+
     max-width: 860px;
     font-size: 14pt;
     font-weight: bold;
@@ -599,7 +654,6 @@ i:hover {
     width: 36PX;
     height: 36px;
     background: #2e2e2e;
-
 
 }
 
