@@ -83,15 +83,15 @@ include("header.php"); ?>
     <div class="container ">
         <div class="speccont_inner">
             <div class="spec_item">
-                <img src="assets/images/onsale.png" alt class="onsale">
+                <img src="assets/images/onsale.png" alt class="spec_png">
                 <span class="spec_text">ON SALE</span>
             </div>
             <div class="spec_item">
-                <img src="assets/images/specialoffer.png" alt class="specialoffers">
+                <img src="assets/images/specialoffer.png" alt class="spec_png">
                 <span class="spec_text">SPECIAL OFFERS</span>
             </div>
             <div class="spec_item">
-                <img src="assets/images/musthave.png" alt class="musthave">
+                <img src="assets/images/musthave.png" alt class="spec_png">
                 <span class="spec_text">MUST HAVE</span>
             </div>
         </div>

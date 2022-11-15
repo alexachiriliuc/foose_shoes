@@ -339,7 +339,18 @@ body {
     text-decoration: none;
 
 }
+@media (max-width: 768px) {
+    .subnav{
+        font-size:14pt ;
+        font-weight: bold;
+    }
+    .link_navtext{
+        font-size: 8pt;
+        font-weight: normal;
+    }
 
+
+}
 .link_nav:hover {
     color: white;
 }
@@ -366,16 +377,20 @@ body {
 
 .speccont_inner {
     display: flex;
-
     align-items: center;
 }
-
+.spec_png{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .spec_item {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px auto;
+
 }
 
 .spec_text {
@@ -388,6 +403,16 @@ body {
 
     background: #000000;
     opacity: .8;
+}
+
+@media (max-width: 768px) {
+    .speccont_inner{
+        gap:10px;
+    }
+    .spec_text{
+        font-size: 16pt;
+    }
+
 }
 
 /*gallery*/
@@ -432,7 +457,6 @@ body {
     position: absolute;
     top: 15px;
     left: 80px;
-
 }
 
 .devider_shoe {
