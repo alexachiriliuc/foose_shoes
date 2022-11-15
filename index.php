@@ -13,7 +13,7 @@ include("header.php"); ?>
     include("navigation.php"); ?>
     <div class="container flex_desk">
         <div class="pinkshoose">
-            <img src="assets/images/introimg.png" alt="img">
+            <img class="pinkshoose" src="assets/images/introimg.png" alt="img">
         </div>
         <div class="item_details">
             <span class="price-box"></span>
@@ -26,19 +26,19 @@ include("header.php"); ?>
             <div class="action_menu">
 
                 <div class="box_icon">
-                    <i class="fa-regular fa-eye "></i>
+                    <i class="fa-regular fa-eye icon"></i>
                 </div>
 
                 <div class="box_icon">
-                    <i class="fa fa-star-o " aria-hidden="true"></i>
+                    <i class="fa fa-star-o icon  " aria-hidden="true"></i>
                 </div>
 
                 <div class="box_icon">
-                    <i class="fa-solid fa-share-from-square "></i>
+                    <i class="fa-solid fa-share-from-square icon "></i>
                 </div>
 
                 <div class="box_icon">
-                    <i class="fa-sharp fa-solid fa-cart-shopping "></i>
+                    <i class="fa-sharp fa-solid fa-cart-shopping icon "></i>
                 </div>
 
             </div>

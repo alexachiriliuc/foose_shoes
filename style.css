@@ -38,13 +38,11 @@ body {
 
 /*Header*/
 .header {
-    width: 100%;
     z-index: 1000;
 }
 
 .container {
-    width: 100%;
-    max-width: 960px;
+    max-width: 975px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -91,6 +89,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .container{
+        padding: 0 15px;
+    }
 
     .header__inner {
         display: flex;
@@ -114,22 +115,21 @@ body {
     }
 
     .profile {
-
         font-size: 12pt;
+        color: #7e7e7e;
     }
     .profile_box {
 
         display: flex;
         width: 30px;
         height: 30px;
-        border: 1px solid #eeece8;
+        border: 2px solid #7e7e7e;
         border-radius: 20px;
         background-color: transparent;
 
         justify-content: center;
         align-items: center;
         text-align: center;
-
     }
 }
 
@@ -163,6 +163,13 @@ body {
     margin: 0 15px;
     gap: 45px;
 }
+@media (max-width: 768px) {
+    .icons{
+        gap:20px;
+    }
+
+}
+
 
 .box-counter {
     width: 20px;
@@ -195,6 +202,11 @@ body {
 .flex_desk {
     display: flex;
     align-items: flex-start;
+}
+.pinkshoose{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .item_details {
@@ -254,10 +266,36 @@ body {
     background-color: #fafaf9;
 }
 
-i:hover {
+.icon:hover {
     cursor: pointer;
     color: #57c5a0;
 }
+
+@media (max-width: 768px) {
+    .item_details{
+        margin:20px 0 0 20px ;
+
+    }
+
+    .price-box{
+        width: 50px;
+        height: 50px;
+    }
+    .desk_maintitle{
+        font-size:36px ;
+    }
+    .second_title{
+        font-size: 36px;
+        line-height: 0.8;
+    }
+
+    .desk__title{
+        font-size:15px ;
+    }
+
+}
+
+
 
 /*Navigation*/
 .nav {
