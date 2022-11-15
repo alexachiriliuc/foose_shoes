@@ -22,7 +22,7 @@
         </div>
         <div class="widget">
             <p class="widget_title">FLICKR WIDGET</p>
-            <img src="assets/images/6packimg.png" alt=>
+            <img class="six_pack" src="assets/images/6packimg.png" alt=>
         </div>
     </div>
     <div class="footer_devider"></div>
