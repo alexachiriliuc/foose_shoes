@@ -1,12 +1,14 @@
+
+<?php
+include("head.php");
+?>
 <?php
 include("header.php"); ?>
 <?php
 include("navigation.php"); ?>
-<?php
-include("head.php");
-?>
-<div class="login">
-    <div class="container ">
+
+<div class="intro">
+    <div class="container flex_desk ">
         <div class="login_inner">
             <div class="paragraph">
                 <h1 class="login_title">Sign In</h1>

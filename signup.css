@@ -1,10 +1,11 @@
 
+
 .login_inner {
     width: 400px;
     height: 600px;
     border-radius: 20px;
     background-color: #dfdbd4;
-    display: inline-block;
+
     margin-top: 80px;
     margin-bottom: 80px;
     padding: 30px;
@@ -91,6 +92,7 @@
     margin: 0 10px;
     position: relative;
     font-weight: initial;
+    font-size: 14pt;
     font-family: Aller sans-serif;
 }
 
@@ -112,19 +114,19 @@
 }
 
 
-.input_login{
+.input_login {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.input_group{
+.input_group {
     color: #2e2e2e;
     font-size: 10pt;
     margin-bottom: 40px;
 }
 
-.in_login{
+.in_login {
 
     display: flex;
     justify-content: center;
@@ -142,12 +144,12 @@
     padding: 15px;
 }
 
-.login_btn{
+.login_btn {
     border: none;
     outline: none;
 
     width: 170px;
-    height:40px ;
+    height: 40px;
 
     font-family: Aller sans-serif;
     color: rgba(46, 46, 46, 0.64);
@@ -159,17 +161,17 @@
     background-color: rgba(87, 197, 160, 0.71);
     cursor: pointer;
 
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.login_btn:hover{
+.login_btn:hover {
     background-color: #57c5a0;
     color: #242424;
 }
 
-.license{
-    font-size: 8pt;
-    color:#999999;
+.license {
+    font-size:8pt;
+    color: #999999;
 
     display: flex;
     align-items: center;
@@ -177,6 +179,16 @@
     gap: 10px;
 
 }
+
+@media (max-width: 768px) {
+    .flex_desk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
 
 
 
