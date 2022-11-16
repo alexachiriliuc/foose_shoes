@@ -117,7 +117,7 @@ include("header.php"); ?>
                 </div>
                 <div class="wrapper_shoe">
 
-                    <img class="shoe" src="assets/images/Item 3.png">
+                    <img class="shoe" src="assets/images/Item 3.png" alt>
                     <div class="devider_shoe"></div>
                     <div class="shoe_price">
                         <div class="price_num"> $145.99</div>
