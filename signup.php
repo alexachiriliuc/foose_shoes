@@ -55,6 +55,9 @@ include("navigation.php"); ?>
             </div>
         </div>
     </div>
+    <?php
+    include("addon.php")
+    ?>
 </div>
 
 <?php

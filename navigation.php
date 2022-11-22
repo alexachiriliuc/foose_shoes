@@ -4,7 +4,7 @@
     <div class="container flex_nav">
         <nav class="navigation">
             <a class="nav_link" href="index.php">Home</a>
-            <a class="nav_link" href="Products.html">Products</a>
+            <a class="nav_link" href="Products.php">Products</a>
             <a class="nav_link" href="About.html">About</a>
             <a class="nav_link" href="Pages.html">Pages</a>
             <a class="nav_link" href="Blog.html">Blog</a>
