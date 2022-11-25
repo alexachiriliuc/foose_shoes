@@ -17,12 +17,12 @@ include("header.php"); ?>
         </div>
         <div class="item_details">
             <span class="price-box"></span>
-            <div class="desk">
-                <h2 class="desk_maintitle">Pink Shoes </h2>
-                <h2 class="second_title">2013 Collection</h2>
-                <h2 class="desk__title">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequa sit amet eu
-                    orci.Donec dignissim dolor eget..</h2>
-            </div>
+
+            <h2 class="desk_maintitle">Pink Shoes </h2>
+            <h2 class="second_title">2013 Collection</h2>
+            <h2 class="desk__title">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequa sit amet eu
+                orci.Donec dignissim dolor eget..</h2>
+
             <div class="action_menu">
 
                 <div class="box_icon">
