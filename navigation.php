@@ -5,10 +5,10 @@
         <nav class="navigation">
             <a class="nav_link" href="index.php">Home</a>
             <a class="nav_link" href="products.php">Products</a>
-            <a class="nav_link" href="About.html">About</a>
-            <a class="nav_link" href="Pages.html">Pages</a>
-            <a class="nav_link" href="Blog.html">Blog</a>
-            <a class="nav_link" href="Contact.html">Contact</a>
+            <a class="nav_link" href="about.php">About</a>
+            <a class="nav_link" href="pages.php">Pages</a>
+            <a class="nav_link" href="blog.php">Blog</a>
+            <a class="nav_link" href="contact.php">Contact</a>
         </nav>
         <div class="icons">
             <div class="str">
