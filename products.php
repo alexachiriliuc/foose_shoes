@@ -81,6 +81,19 @@ include("navigation.php"); ?>
 
 <div class="container"></div>
 <div class="products">
+    <div class="container product ">
+        <div class="new__container ">
+            <h2 class="product__title">All Products</h2>
+            <button class="show-all prod" style="font-size: 14pt ">
+                <span class="btntitle">Sort alfabetically</span>
+                <span class="circle_sort">
+                       <i class="fa-sharp fa-solid fa-angle-down circle"></i>
+                </span>
+            </button>
+        </div>
+    </div>
+
+
 
 
 </div>

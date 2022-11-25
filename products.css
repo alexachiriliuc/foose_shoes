@@ -74,3 +74,27 @@
     border-radius: 20px;
     font-size: 6pt;
 }
+
+.prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    gap: 10px;
+
+}
+
+.circle_sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 15px;
+    height: 15px;
+
+    background: #bcb5a7;
+    color: #ebe7df;
+    border-radius: 20px;
+    font-size: 10pt;
+}
