@@ -52,8 +52,9 @@
     align-items: center;
 
     cursor: pointer;
+    border: none;
 
-    background-color: black;
+    background-color: #242424;
     font-weight: bold;
     color: white;
     padding: 15px 50px;
@@ -98,3 +99,16 @@
     border-radius: 20px;
     font-size: 10pt;
 }
+
+.gallery{
+    display: grid;
+    gap: 25px;
+
+    grid-auto-flow: column;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+
+}
+
+

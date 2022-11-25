@@ -91,10 +91,85 @@ include("navigation.php"); ?>
                 </span>
             </button>
         </div>
+
+
+        <div class="prod_img gallery">
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+            <div class="wrapper_shoe">
+
+                <img class="shoe" src="assets/images/Item 3.png" alt>
+                <div class="devider_shoe"></div>
+                <div class="shoe_price">
+                    <div class="price_num"> $145.99</div>
+                </div>
+            </div>
+
+
     </div>
-
-
-
 
 </div>
 
