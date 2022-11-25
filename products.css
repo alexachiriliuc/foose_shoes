@@ -37,9 +37,14 @@
     padding-bottom: 10px;
 
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
+.shopby {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 50px;
+}
 
 .dropbtn {
     display: flex;

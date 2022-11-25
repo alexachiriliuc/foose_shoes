@@ -16,7 +16,7 @@ include("navigation.php"); ?>
             <div class="first">
                 <span class="price-box"></span>
                 <div class="main_text">
-                    <h2 class="text_maintitle">Pink Shoes </h2>
+                    <h2 class="text_maintitle">Pink Shoes</h2>
                     <h2 class="tex_title">2013 Collection</h2>
                 </div>
             </div>
@@ -33,7 +33,7 @@ include("navigation.php"); ?>
             <span class="shopby">Shop by</span>
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
-                    <span class="btntitle" >Brands</span>
+                    <span class="btntitle">Brands</span>
                     <span class="circle_icon">
                         <i class="fa-sharp fa-solid fa-angle-down circle"></i>
                     </span>
@@ -77,6 +77,12 @@ include("navigation.php"); ?>
             </div>
         </div>
     </div>
+</div>
+
+<div class="container"></div>
+<div class="products">
+
+
 </div>
 
 <div class="container">
