@@ -33,7 +33,7 @@ include("navigation.php"); ?>
 <div class="nav">
     <div class="container">
         <div class="filter">
-            <span>Shop by</span>
+            <span class="shopby">Shop by</span>
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
                     <span>Brands</span>

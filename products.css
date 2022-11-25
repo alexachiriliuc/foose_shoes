@@ -26,6 +26,20 @@
 }
 .filter{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+padding-bottom: 10px;
+    justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 22px;
+}
+.shopby{
+    display: flex;
+
+}
+.dropbtn{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
 }
