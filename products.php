@@ -34,9 +34,9 @@ include("navigation.php"); ?>
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
                     <span class="btntitle" >Brands</span>
-                    <div class="circle_icon">
+                    <span class="circle_icon">
                         <i class="fa-sharp fa-solid fa-angle-down circle"></i>
-                    </div>
+                    </span>
                 </button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href=""></a>
@@ -48,9 +48,9 @@ include("navigation.php"); ?>
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
                     <span class="btntitle">Categories</span>
-                    <div class="circle_icon">
+                    <span class="circle_icon">
                        <i class="fa-sharp fa-solid fa-angle-down circle"></i>
-                    </div>
+                    </span>
 
                 </button>
                 <div id="myDropdown" class="dropdown-content">
@@ -64,9 +64,9 @@ include("navigation.php"); ?>
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
                     <span class="btntitle">Price</span>
-                    <div class="circle_icon">
+                    <span class="circle_icon">
                         <i class="fa-sharp fa-solid fa-angle-down circle"></i>
-                    </div>
+                    </span>
                 </button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href=""></a>
