@@ -15,8 +15,8 @@ include("navigation.php"); ?>
             <div class="first">
                 <span class="price-box"></span>
                 <div class="main_text">
-                    <h2 class="desk_maintitle">Pink Shoes </h2>
-                    <h2 class="second_title">2013 Collection</h2>
+                    <h2 class="text_maintitle">Pink Shoes </h2>
+                    <h2 class="tex_title">2013 Collection</h2>
                 </div>
 
             </div>

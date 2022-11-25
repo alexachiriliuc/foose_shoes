@@ -8,16 +8,19 @@
 .description{
     margin: auto;
 
+
 }
 .first{
     display: flex;
     gap: 20px;
     justify-content: start;
     align-items: center;
-
+    padding-bottom: 5px;
 }
 .price-box{
     display: flex;
-
     align-items: center;
+}
+.main_text{
+    line-height: 1;
 }
