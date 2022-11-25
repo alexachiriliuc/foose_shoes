@@ -37,9 +37,31 @@ padding-bottom: 10px;
     display: flex;
 
 }
+
+
+
 .dropbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     cursor: pointer;
     background-color: black;
     color: white;
     padding: 15px 50px;
+    gap: 30px;
+
+}
+.circle_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10px;
+    height: 10px;
+
+    background: white;
+    color: black;
+    border-radius:20px ;
+    font-size: 6pt;
 }

@@ -3,6 +3,7 @@ include("head.php");
 ?>
 <?php
 include("header.php"); ?>
+
 <?php
 include("navigation.php"); ?>
 
@@ -18,13 +19,9 @@ include("navigation.php"); ?>
                     <h2 class="text_maintitle">Pink Shoes </h2>
                     <h2 class="tex_title">2013 Collection</h2>
                 </div>
-
             </div>
-
-
             <h2 class="desk__title">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequa sit amet eu
                 orci.Donec dignissim dolor eget..</h2>
-
         </div>
     </div>
 
@@ -36,8 +33,10 @@ include("navigation.php"); ?>
             <span class="shopby">Shop by</span>
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
-                    <span>Brands</span>
-                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                    <span class="btntitle" >Brands</span>
+                    <div class="circle_icon">
+                        <i class="fa-sharp fa-solid fa-angle-down circle"></i>
+                    </div>
                 </button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href=""></a>
@@ -48,8 +47,11 @@ include("navigation.php"); ?>
             </div>
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
-                    <span>Categories</span>
-                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                    <span class="btntitle">Categories</span>
+                    <div class="circle_icon">
+                       <i class="fa-sharp fa-solid fa-angle-down circle"></i>
+                    </div>
+
                 </button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href=""></a>
@@ -61,8 +63,10 @@ include("navigation.php"); ?>
 
             <div class="filter_inner">
                 <button onclick="dropFunction()" class="dropbtn">
-                    <span>Price</span>
-                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                    <span class="btntitle">Price</span>
+                    <div class="circle_icon">
+                        <i class="fa-sharp fa-solid fa-angle-down circle"></i>
+                    </div>
                 </button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href=""></a>
@@ -74,14 +78,15 @@ include("navigation.php"); ?>
         </div>
     </div>
 </div>
-    <div class="container">
-        <?php
-        include("addon.php")
-        ?>
-    </div>
 
-
+<div class="container">
     <?php
-    include("footer.php")
+    include("addon.php")
     ?>
+</div>
+
+
+<?php
+include("footer.php")
+?>
 
