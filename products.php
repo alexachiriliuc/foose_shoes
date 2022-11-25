@@ -32,57 +32,56 @@ include("navigation.php"); ?>
 
 <div class="nav">
     <div class="container">
-        <span>Shop by</span>
         <div class="filter">
-            <button onclick="dropFunction()" class="dropbtn">
-                <span>Brands</span>
-                <i class="fa-sharp fa-solid fa-angle-down"></i>
-            </button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <span>Shop by</span>
+            <div class="filter_inner">
+                <button onclick="dropFunction()" class="dropbtn">
+                    <span>Brands</span>
+                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </div>
-        </div> <div class="filter">
-            <button onclick="dropFunction()" class="dropbtn">
-                <span>Categories</span>
-                <i class="fa-sharp fa-solid fa-angle-down"></i>
-            </button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <div class="filter_inner">
+                <button onclick="dropFunction()" class="dropbtn">
+                    <span>Categories</span>
+                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </div>
-        </div></div> <div class="filter">
-            <button onclick="dropFunction()" class="dropbtn">
-                <span>Price</span>
-                <i class="fa-sharp fa-solid fa-angle-down"></i>
-            </button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+
+            <div class="filter_inner">
+                <button onclick="dropFunction()" class="dropbtn">
+                    <span>Price</span>
+                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </div>
         </div>
-
-
-
+    </div>
+</div>
+    <div class="container">
+        <?php
+        include("addon.php")
+        ?>
     </div>
 
-</div>
 
-
-<div class="container">
     <?php
-    include("addon.php")
+    include("footer.php")
     ?>
-</div>
-
-
-<?php
-include("footer.php")
-?>
 
